@@ -1,0 +1,19 @@
+{
+  "ID": "D056",
+  "table_title": "表1 土壤适宜性评价隶属度函数",
+  "columns": ["indicator", "function_type", "x1", "x2", "x3", "x4", "unit"],
+  "rows": [
+    {"indicator": "pH值", "function_type": "抛物线型", "x1": 5, "x2": 5.5, "x3": 7, "x4": 7.5, "unit": null},
+    {"indicator": "OM", "function_type": "抛物线型", "x1": 0.58, "x2": 0.87, "x3": 1.74, "x4": 2.32, "unit": "%"},
+    {"indicator": "TN", "function_type": "抛物线型", "x1": 0.5, "x2": 1, "x3": 1.5, "x4": 2, "unit": "g/kg"},
+    {"indicator": "AN", "function_type": "抛物线型", "x1": 65, "x2": 100, "x3": 150, "x4": 200, "unit": "mg/kg"},
+    {"indicator": "TP", "function_type": "抛物线型", "x1": 500, "x2": 1000, "x3": 1500, "x4": 3000, "unit": "mg/kg"},
+    {"indicator": "AP", "function_type": "抛物线型", "x1": 10, "x2": 20, "x3": 40, "x4": 80, "unit": "mg/kg"},
+    {"indicator": "TK", "function_type": "抛物线型", "x1": 0.5, "x2": 1, "x3": 1.5, "x4": 2, "unit": "%"},
+    {"indicator": "QK", "function_type": "抛物线型", "x1": 80, "x2": 150, "x3": 220, "x4": 350, "unit": "mg/kg"},
+    {"indicator": "Cr", "function_type": "降半梯形", "x1": 30, "x2": null, "x3": null, "x4": 150, "unit": "mg/kg"},
+    {"indicator": "Cd", "function_type": "降半梯形", "x1": 0.3, "x2": null, "x3": null, "x4": 2, "unit": "mg/kg"},
+    {"indicator": "Pb", "function_type": "降半梯形", "x1": 47, "x2": null, "x3": null, "x4": 70, "unit": "mg/kg"},
+    {"indicator": "Hg", "function_type": "降半梯形", "x1": 1.3, "x2": null, "x3": null, "x4": 3.3, "unit": "mg/kg"}
+  ]
+}

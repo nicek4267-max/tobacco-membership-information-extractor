@@ -1,0 +1,27 @@
+{
+  "ID": "D064",
+  "table_title": "Table 1 Suitability assessment factors, their total weights, member function types, and threshold values",
+  "columns": ["indicator", "function_type", "x1", "x2", "x3", "x4", "unit"],
+  "rows": [
+    {"indicator": "Day20", "function_type": "Sigmoid", "x1": 30, "x2": null, "x3": null, "x4": 70, "unit": "days"},
+    {"indicator": "Temp58", "function_type": "Parabolic", "x1": 16, "x2": 20, "x3": 28, "x4": 35, "unit": "°C"},
+    {"indicator": "Precip5", "function_type": "Parabolic", "x1": 20, "x2": 50, "x3": 100, "x4": 150, "unit": "mm"},
+    {"indicator": "Precip6", "function_type": "Parabolic", "x1": 40, "x2": 100, "x3": 180, "x4": 250, "unit": "mm"},
+    {"indicator": "Precip78", "function_type": "Parabolic", "x1": 30, "x2": 80, "x3": 150, "x4": 250, "unit": "mm"},
+    {"indicator": "Sunshine", "function_type": "Parabolic", "x1": 200, "x2": 400, "x3": 600, "x4": 800, "unit": "hours"},
+    {"indicator": "TempDiff", "function_type": "Parabolic", "x1": 5, "x2": 7, "x3": 8, "x4": 10, "unit": "°C"},
+    {"indicator": "Cl", "function_type": "Parabolic", "x1": 5.0, "x2": 10.0, "x3": 20.0, "x4": 30.0, "unit": "mg kg−1"},
+    {"indicator": "pH", "function_type": "Parabolic", "x1": 4.5, "x2": 5.0, "x3": 6.5, "x4": 7.5, "unit": null},
+    {"indicator": "OM", "function_type": "Parabolic", "x1": 0.4, "x2": 0.6, "x3": 1.6, "x4": 2.5, "unit": "%"},
+    {"indicator": "AN", "function_type": "Parabolic", "x1": 30.00, "x2": 40.00, "x3": 80.00, "x4": 100.0, "unit": "mg kg−1"},
+    {"indicator": "AP", "function_type": "Parabolic", "x1": 5.0, "x2": 10.0, "x3": 20.0, "x4": 30.0, "unit": "mg kg−1"},
+    {"indicator": "AK", "function_type": "Parabolic", "x1": 80.0, "x2": 120.0, "x3": 240.0, "x4": 350.0, "unit": "mg kg−1"},
+    {"indicator": "Ca", "function_type": "Parabolic", "x1": 4, "x2": 8.0, "x3": 20, "x4": 25, "unit": "mg kg−1"},
+    {"indicator": "Mg", "function_type": "Parabolic", "x1": 0.8, "x2": 1.6, "x3": 3.2, "x4": 5.0, "unit": "mg kg−1"},
+    {"indicator": "Mo", "function_type": "Sigmoid", "x1": 0.15, "x2": null, "x3": null, "x4": 0.3, "unit": "mg kg−1"},
+    {"indicator": "Relief", "function_type": "Linear", "x1": null, "x2": null, "x3": null, "x4": null, "unit": null},
+    {"indicator": "Elevation", "function_type": "Parabolic", "x1": 60, "x2": 150, "x3": 800, "x4": 1600, "unit": null},
+    {"indicator": "Slope", "function_type": "Inverted sigmoid", "x1": 0, "x2": null, "x3": null, "x4": 25, "unit": null},
+    {"indicator": "Soil type", "function_type": null, "x1": null, "x2": null, "x3": null, "x4": null, "unit": null}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "table_id": "D053",
+  "records": [
+    {"indicator_raw": "pH", "indicator_std": "pH", "function_type_raw": "A", "function_type_std": "parabolic", "x1": 4.5, "x2": 5.5, "x3": 6.5, "x4": 8.0, "unit": null, "evidence_row": {"indicator": "pH", "function_type": "A", "x1": 4.5, "x2": 5.5, "x3": 6.5, "x4": 8.0, "unit": null}},
+    {"indicator_raw": "有机质 Organic matter", "indicator_std": "OM", "function_type_raw": "A", "function_type_std": "parabolic", "x1": 10, "x2": 15, "x3": 30, "x4": 45, "unit": "g/kg", "evidence_row": {"indicator": "有机质 Organic matter", "function_type": "A", "x1": 10, "x2": 15, "x3": 30, "x4": 45, "unit": "g/kg"}},
+    {"indicator_raw": "全氮 Total N", "indicator_std": "TN", "function_type_raw": "A", "function_type_std": "parabolic", "x1": 0.07, "x2": 0.10, "x3": 0.15, "x4": 0.20, "unit": null, "evidence_row": {"indicator": "全氮 Total N", "function_type": "A", "x1": 0.07, "x2": 0.10, "x3": 0.15, "x4": 0.20, "unit": "%"}},
+    {"indicator_raw": "有效磷 Available P", "indicator_std": "AP", "function_type_raw": "B", "function_type_std": "S-type", "x1": 10, "x2": null, "x3": null, "x4": 40, "unit": "mg/kg", "evidence_row": {"indicator": "有效磷 Available P", "function_type": "B", "x1": 10, "x2": 40, "x3": null, "x4": null, "unit": "mg/kg"}},
+    {"indicator_raw": "速效钾 Available K", "indicator_std": "AK", "function_type_raw": "B", "function_type_std": "S-type", "x1": 50, "x2": null, "x3": null, "x4": 150, "unit": "mg/kg", "evidence_row": {"indicator": "速效钾 Available K", "function_type": "B", "x1": 50, "x2": 150, "x3": null, "x4": null, "unit": "mg/kg"}}
+  ]
+}

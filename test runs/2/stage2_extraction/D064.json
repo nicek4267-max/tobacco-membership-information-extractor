@@ -1,0 +1,9 @@
+{
+  "table_id": "D064",
+  "records": [
+    {"indicator_raw": "pH", "indicator_std": "pH", "function_type_raw": "Parabolic", "function_type_std": "parabolic", "x1": 4.5, "x2": 5.0, "x3": 6.5, "x4": 7.5, "unit": null, "evidence_row": {"indicator": "pH", "function_type": "Parabolic", "x1": 4.5, "x2": 5.0, "x3": 6.5, "x4": 7.5, "unit": null}},
+    {"indicator_raw": "OM", "indicator_std": "OM", "function_type_raw": "Parabolic", "function_type_std": "parabolic", "x1": 0.4, "x2": 0.6, "x3": 1.6, "x4": 2.5, "unit": null, "evidence_row": {"indicator": "OM", "function_type": "Parabolic", "x1": 0.4, "x2": 0.6, "x3": 1.6, "x4": 2.5, "unit": "%"}},
+    {"indicator_raw": "AP", "indicator_std": "AP", "function_type_raw": "Parabolic", "function_type_std": "parabolic", "x1": 5.0, "x2": 10.0, "x3": 20.0, "x4": 30.0, "unit": "mg/kg", "evidence_row": {"indicator": "AP", "function_type": "Parabolic", "x1": 5.0, "x2": 10.0, "x3": 20.0, "x4": 30.0, "unit": "mg kg−1"}},
+    {"indicator_raw": "AK", "indicator_std": "AK", "function_type_raw": "Parabolic", "function_type_std": "parabolic", "x1": 80.0, "x2": 120.0, "x3": 240.0, "x4": 350.0, "unit": "mg/kg", "evidence_row": {"indicator": "AK", "function_type": "Parabolic", "x1": 80.0, "x2": 120.0, "x3": 240.0, "x4": 350.0, "unit": "mg kg−1"}}
+  ]
+}

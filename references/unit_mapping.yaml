@@ -1,0 +1,21 @@
+g/kg:
+  - g/kg
+  - g·kg^-1
+  - g kg^-1
+  - g·kg−1
+  - g kg−1
+
+mg/kg:
+  - mg/kg
+  - mg·kg^-1
+  - mg kg^-1
+  - mg·kg−1
+  - mg kg−1
+
+null:
+  - null
+  - ""
+  - "-"
+
+%
+  -%

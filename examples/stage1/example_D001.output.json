@@ -1,0 +1,51 @@
+{ "ID":1,
+  "table_title": "Table 2 Types and thresholds of membership functions corresponding to tobacco-growing soil fertility index values",
+  "columns": ["indicator", "function_type", "x1", "x2", "x3", "x4", "unit"],
+  "rows": [
+    {
+      "indicator": "pH值",
+      "function_type": "抛物线型",
+      "x1": 5.0,
+      "x2": 5.5,
+      "x3": 7.0,
+      "x4": 7.5,
+      "unit": null
+    },
+    {
+      "indicator": "有机质含量",
+      "function_type": "抛物线型",
+      "x1": 15.0,
+      "x2": 25.0,
+      "x3": 35.0,
+      "x4": 45.0,
+      "unit": null
+    },
+    {
+      "indicator": "全氮含量",
+      "function_type": "抛物线型",
+      "x1": 0.5,
+      "x2": 1.0,
+      "x3": 1.5,
+      "x4": 2.0,
+      "unit": null
+    },
+    {
+      "indicator": "速效磷含量",
+      "function_type": "S型",
+      "x1": 5.0,
+      "x2": null,
+      "x3": null,
+      "x4": 40.0,
+      "unit": null
+    },
+    {
+      "indicator": "速效钾含量",
+      "function_type": "S型",
+      "x1": 80.0,
+      "x2": null,
+      "x3": null,
+      "x4": 350.0,
+      "unit": null
+    }
+  ]
+}

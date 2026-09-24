@@ -1,0 +1,31 @@
+{
+  "ID": "D059",
+  "table_title": "表2 指标隶属度函数类型及阈值 / Table 2 Membership function types and thresholds",
+  "columns": ["indicator", "function_type", "x1", "x2", "x3", "x4", "unit"],
+  "rows": [
+    {"indicator": "容重 BD", "function_type": "Ⅰ", "x1": 1, "x2": 1.1, "x3": 1.2, "x4": 1.4, "unit": "g/cm³"},
+    {"indicator": "粉粒 Silt", "function_type": "Ⅰ", "x1": 10, "x2": 20, "x3": 35, "x4": 55, "unit": "%"},
+    {"indicator": "砂粒 Sand", "function_type": "Ⅰ", "x1": 15, "x2": 30, "x3": 45, "x4": 60, "unit": "%"},
+    {"indicator": "黏粒 Clay", "function_type": "Ⅰ", "x1": 5, "x2": 10, "x3": 25, "x4": 50, "unit": "%"},
+    {"indicator": "全氮 TN", "function_type": "Ⅰ", "x1": 0.5, "x2": 1, "x3": 2, "x4": 2.5, "unit": "g/kg"},
+    {"indicator": "碱解氮 AN", "function_type": "Ⅰ", "x1": 65, "x2": 100, "x3": 180, "x4": 240, "unit": "mg/kg"},
+    {"indicator": "水溶性氯 Cl", "function_type": "Ⅰ", "x1": 4, "x2": 10, "x3": 30, "x4": 60, "unit": "mg/kg"},
+    {"indicator": "酸碱度 pH", "function_type": "Ⅰ", "x1": 4.5, "x2": 5.5, "x3": 6.5, "x4": 8, "unit": null},
+    {"indicator": "土壤有机质 SOM", "function_type": "Ⅰ", "x1": 15, "x2": 25, "x3": 35, "x4": 45, "unit": "g/kg"},
+    {"indicator": "交换性钙 Ca", "function_type": "Ⅱ", "x1": 3, "x2": null, "x3": null, "x4": 18, "unit": "cmol/kg"},
+    {"indicator": "水稳性大团聚体 WSA0.25", "function_type": "Ⅱ", "x1": 50, "x2": null, "x3": null, "x4": 100, "unit": "%"},
+    {"indicator": "平均重量直径 MWD", "function_type": "Ⅱ", "x1": 0.88, "x2": null, "x3": null, "x4": 2.6, "unit": "mm"},
+    {"indicator": "全磷 TP", "function_type": "Ⅱ", "x1": 0.5, "x2": null, "x3": null, "x4": 1.5, "unit": "g/kg"},
+    {"indicator": "全钾 TK", "function_type": "Ⅱ", "x1": 10, "x2": null, "x3": null, "x4": 25, "unit": "g/kg"},
+    {"indicator": "有效磷 AP", "function_type": "Ⅱ", "x1": 10, "x2": null, "x3": null, "x4": 45, "unit": "mg/kg"},
+    {"indicator": "速效钾 AK", "function_type": "Ⅱ", "x1": 80, "x2": null, "x3": null, "x4": 350, "unit": "mg/kg"},
+    {"indicator": "有效硫 S", "function_type": "Ⅱ", "x1": 5, "x2": null, "x3": null, "x4": 40, "unit": "mg/kg"},
+    {"indicator": "有效铁 Fe", "function_type": "Ⅱ", "x1": 2.5, "x2": null, "x3": null, "x4": 60, "unit": "mg/kg"},
+    {"indicator": "有效锰 Mn", "function_type": "Ⅱ", "x1": 5, "x2": null, "x3": null, "x4": 40, "unit": "mg/kg"},
+    {"indicator": "有效铜 Cu", "function_type": "Ⅱ", "x1": 0.2, "x2": null, "x3": null, "x4": 3, "unit": "mg/kg"},
+    {"indicator": "有效锌 Zn", "function_type": "Ⅱ", "x1": 1.5, "x2": null, "x3": null, "x4": 3, "unit": "mg/kg"},
+    {"indicator": "有效硼 B", "function_type": "Ⅱ", "x1": 0.15, "x2": null, "x3": null, "x4": 1, "unit": "mg/kg"},
+    {"indicator": "有效钼 Mo", "function_type": "Ⅱ", "x1": 0.15, "x2": null, "x3": null, "x4": 1, "unit": "mg/kg"},
+    {"indicator": "交换性镁 Mg", "function_type": "Ⅱ", "x1": 0.5, "x2": null, "x3": null, "x4": 2.8, "unit": "cmol/kg"}
+  ]
+}

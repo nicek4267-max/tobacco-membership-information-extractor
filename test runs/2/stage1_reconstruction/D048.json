@@ -1,0 +1,18 @@
+{
+  "ID": "D048",
+  "table_title": "表1 指标转折点 / Tab. 1 Indicator turning points",
+  "columns": ["indicator", "function_type", "x1", "x2", "x3", "x4", "unit"],
+  "rows": [
+    {"indicator": "pH", "function_type": null, "x1": 4.5, "x2": 5.5, "x3": 7.0, "x4": 7.5, "unit": null},
+    {"indicator": "OM", "function_type": null, "x1": 6, "x2": 15, "x3": 25, "x4": 40, "unit": "g/kg"},
+    {"indicator": "AHN", "function_type": null, "x1": 30, "x2": 65, "x3": 100, "x4": 150, "unit": "mg/kg"},
+    {"indicator": "AP", "function_type": null, "x1": 5, "x2": 20, "x3": 35, "x4": 60, "unit": "mg/kg"},
+    {"indicator": "AK", "function_type": null, "x1": 80, "x2": 150, "x3": 220, "x4": 350, "unit": "mg/kg"},
+    {"indicator": "Cl−", "function_type": null, "x1": 5, "x2": 10, "x3": 30, "x4": 35, "unit": "mg/kg"},
+    {"indicator": "AFe", "function_type": null, "x1": 5, "x2": 10, "x3": 20, "x4": 30, "unit": "mg/kg"},
+    {"indicator": "AMn", "function_type": null, "x1": 10, "x2": 20, "x3": 30, "x4": 40, "unit": "mg/kg"},
+    {"indicator": "AS", "function_type": null, "x1": 5, "x2": 10, "x3": 25, "x4": 35, "unit": "mg/kg"},
+    {"indicator": "Ex-Ca", "function_type": null, "x1": 5, "x2": 10, "x3": 20, "x4": 30, "unit": "cmol(1/2Ca)/kg"},
+    {"indicator": "Ex-Mg", "function_type": null, "x1": 0.3, "x2": 0.6, "x3": 1.0, "x4": 1.4, "unit": "cmol(1/2Mg)/kg"}
+  ]
+}

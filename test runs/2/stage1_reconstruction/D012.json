@@ -1,0 +1,11 @@
+{
+  "ID": "D012",
+  "table_title": "表1 土壤肥力评价指标临界值 / Tab. 1 Critical value of soil fertility evaluation index",
+  "columns": ["indicator", "function_type", "x1", "x2", "x3", "x4", "unit"],
+  "rows": [
+    {"indicator": "pH", "function_type": null, "x1": 4.5, "x2": 5.5, "x3": 7.5, "x4": 8.5, "unit": null},
+    {"indicator": "碱解氮", "function_type": null, "x1": 60, "x2": 110, "x3": 180, "x4": 240, "unit": "mg·kg−1"},
+    {"indicator": "有效磷", "function_type": null, "x1": 5, "x2": null, "x3": null, "x4": 40, "unit": "mg·kg−1"},
+    {"indicator": "速效钾", "function_type": null, "x1": 80, "x2": null, "x3": null, "x4": 350, "unit": "mg·kg−1"}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "ID": "D065",
+  "table_title": "Table 2: Membership function types and turning points of soil fertility indicators",
+  "columns": ["indicator", "function_type", "x1", "x2", "x3", "x4", "unit"],
+  "rows": [
+    {"indicator": "pH", "function_type": "Parabolas", "x1": 5, "x2": 8, "x3": 5.5, "x4": 7, "unit": null},
+    {"indicator": "SOM", "function_type": "Parabolas", "x1": 15, "x2": 45, "x3": 20, "x4": 35, "unit": null},
+    {"indicator": "TN", "function_type": "Parabolas", "x1": 0.5, "x2": 2.5, "x3": 1, "x4": 2, "unit": null},
+    {"indicator": "AN", "function_type": "Parabolas", "x1": 65, "x2": 240, "x3": 100, "x4": 180, "unit": null},
+    {"indicator": "Cl−", "function_type": "Parabolas", "x1": 5, "x2": 40, "x3": 10, "x4": 30, "unit": null},
+    {"indicator": "TP", "function_type": "S", "x1": 0.5, "x2": 1.5, "x3": null, "x4": null, "unit": null},
+    {"indicator": "AP", "function_type": "S", "x1": 10, "x2": 40, "x3": null, "x4": null, "unit": null},
+    {"indicator": "TK", "function_type": "S", "x1": 10, "x2": 25, "x3": null, "x4": null, "unit": null},
+    {"indicator": "AK", "function_type": "S", "x1": 80, "x2": 350, "x3": null, "x4": null, "unit": null},
+    {"indicator": "Ca", "function_type": "S", "x1": 3, "x2": 20, "x3": null, "x4": null, "unit": null},
+    {"indicator": "Mg", "function_type": "S", "x1": 0.5, "x2": 4, "x3": null, "x4": null, "unit": null},
+    {"indicator": "S", "function_type": "S", "x1": 16, "x2": 30, "x3": null, "x4": null, "unit": null},
+    {"indicator": "B", "function_type": "S", "x1": 0.2, "x2": 1.5, "x3": null, "x4": null, "unit": null},
+    {"indicator": "Fe", "function_type": "S", "x1": 4.5, "x2": 70, "x3": null, "x4": null, "unit": null},
+    {"indicator": "Mn", "function_type": "S", "x1": 10, "x2": 50, "x3": null, "x4": null, "unit": null},
+    {"indicator": "Cu", "function_type": "S", "x1": 0.5, "x2": 4, "x3": null, "x4": null, "unit": null},
+    {"indicator": "Zn", "function_type": "S", "x1": 1, "x2": 5, "x3": null, "x4": null, "unit": null},
+    {"indicator": "Mo", "function_type": "S", "x1": 0.15, "x2": 0.4, "x3": null, "x4": null, "unit": null}
+  ]
+}

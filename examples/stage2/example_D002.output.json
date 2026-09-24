@@ -1,0 +1,97 @@
+{
+    "table_id": "2",
+    "records": [
+      {
+        "indicator_raw": "土壤pH",
+        "indicator_std": "pH",
+        "function_type_raw": "抛物线型",
+        "function_type_std": "parabolic",
+        "x1": 5.0,
+        "x2": 5.5,
+        "x3": 7.0,
+        "x4": 8.0,
+        "unit": "",
+        "evidence_row": [
+          {
+            "indicator": "土壤pH",
+            "function_type": "抛物线型",
+            "x1": 5.0,
+            "x2": 5.5,
+            "x3": 7.0,
+            "x4": 8.0,
+            "unit": null,
+            "weight": 0.0422
+          }
+        ]
+      },
+      {
+        "indicator_raw": "有机质",
+        "indicator_std": "OM",
+        "function_type_raw": "抛物线型",
+        "function_type_std": "parabolic",
+        "x1": 8,
+        "x2": 14,
+        "x3": 18,
+        "x4": 25,
+        "unit": "g/kg",
+        "evidence_row": [
+          {
+            "indicator": "有机质",
+            "function_type": "抛物线型",
+            "x1": 8,
+            "x2": 14,
+            "x3": 18,
+            "x4": 25,
+            "unit": "g/kg",
+            "weight": 0.2564
+          }
+        ]
+      },
+      {
+        "indicator_raw": "速效磷",
+        "indicator_std": "AP",
+        "function_type_raw": "升梯型",
+        "function_type_std": "S-type",
+        "x1": 5,
+        "x2": null,
+        "x3": null,
+        "x4": 15,
+        "unit": "mg/kg",
+        "evidence_row": [
+          {
+            "indicator": "速效磷",
+            "function_type": "升梯型",
+            "x1": 5,
+            "x2": 15,
+            "x3": null,
+            "x4": null,
+            "unit": "mg/kg",
+            "weight": 0.0943
+          }
+        ]
+      },
+      {
+        "indicator_raw": "速效钾",
+        "indicator_std": "AK",
+        "function_type_raw": "升梯型",
+        "function_type_std": "S-type",
+        "x1": 80,
+        "x2": null,
+        "x3": null,
+        "x4": 150,
+        "unit": "mg/kg",
+        "evidence_row": [
+          {
+            "indicator": "速效钾",
+            "function_type": "升梯型",
+            "x1": 80,
+            "x2": 150,
+            "x3": null,
+            "x4": null,
+            "unit": "mg/kg",
+            "weight": 0.0943
+          }
+        ]
+      }
+    ]
+}

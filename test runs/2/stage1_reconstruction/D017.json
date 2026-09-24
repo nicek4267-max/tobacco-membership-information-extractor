@@ -1,0 +1,19 @@
+{
+  "ID": "D017",
+  "table_title": "表3 土壤肥力质量评价参评指标函数类型及函数转折点取值",
+  "columns": ["indicator", "function_type", "x1", "x2", "x3", "x4", "unit"],
+  "rows": [
+    {"indicator": "pH值", "function_type": "B", "x1": 5.0, "x2": 5.5, "x3": 6.5, "x4": 8.0, "unit": null},
+    {"indicator": "有机质", "function_type": "B", "x1": 1.0, "x2": 1.4, "x3": 3.0, "x4": 4.5, "unit": "%"},
+    {"indicator": "全氮", "function_type": "A", "x1": 0.08, "x2": 0.15, "x3": null, "x4": null, "unit": "%"},
+    {"indicator": "全磷", "function_type": "A", "x1": 0.06, "x2": 0.2, "x3": null, "x4": null, "unit": "%"},
+    {"indicator": "全钾", "function_type": "A", "x1": 0.6, "x2": 3.0, "x3": null, "x4": null, "unit": "%"},
+    {"indicator": "碱解氮", "function_type": "A", "x1": 30, "x2": 120, "x3": null, "x4": null, "unit": "mg/kg"},
+    {"indicator": "有效磷", "function_type": "A", "x1": 10, "x2": 40, "x3": null, "x4": null, "unit": "mg/kg"},
+    {"indicator": "速效钾", "function_type": "A", "x1": 50, "x2": 200, "x3": null, "x4": null, "unit": "mg/kg"},
+    {"indicator": "有效铁", "function_type": "A", "x1": 7, "x2": 15, "x3": null, "x4": null, "unit": "mg/kg"},
+    {"indicator": "有效锰", "function_type": "A", "x1": 7, "x2": 15, "x3": null, "x4": null, "unit": "mg/kg"},
+    {"indicator": "有效铜", "function_type": "A", "x1": 0.2, "x2": 1.8, "x3": null, "x4": null, "unit": "mg/kg"},
+    {"indicator": "有效锌", "function_type": "A", "x1": 0.3, "x2": 3.0, "x3": null, "x4": null, "unit": "mg/kg"}
+  ]
+}

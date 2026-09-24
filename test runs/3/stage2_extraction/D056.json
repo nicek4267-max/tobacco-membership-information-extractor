@@ -1,0 +1,9 @@
+{
+  "table_id": "D056",
+  "records": [
+    {"indicator_raw": "pH值", "indicator_std": "pH", "function_type_raw": "抛物线型", "function_type_std": "parabolic", "x1": 5, "x2": 5.5, "x3": 7, "x4": 7.5, "unit": null, "evidence_row": {"indicator": "pH值", "function_type": "抛物线型", "x1": 5, "x2": 5.5, "x3": 7, "x4": 7.5, "unit": null}},
+    {"indicator_raw": "OM", "indicator_std": "OM", "function_type_raw": "抛物线型", "function_type_std": "parabolic", "x1": 0.58, "x2": 0.87, "x3": 1.74, "x4": 2.32, "unit": null, "evidence_row": {"indicator": "OM", "function_type": "抛物线型", "x1": 0.58, "x2": 0.87, "x3": 1.74, "x4": 2.32, "unit": "%"}},
+    {"indicator_raw": "TN", "indicator_std": "TN", "function_type_raw": "抛物线型", "function_type_std": "parabolic", "x1": 0.5, "x2": 1, "x3": 1.5, "x4": 2, "unit": "g/kg", "evidence_row": {"indicator": "TN", "function_type": "抛物线型", "x1": 0.5, "x2": 1, "x3": 1.5, "x4": 2, "unit": "g/kg"}},
+    {"indicator_raw": "AP", "indicator_std": "AP", "function_type_raw": "抛物线型", "function_type_std": "parabolic", "x1": 10, "x2": 20, "x3": 40, "x4": 80, "unit": "mg/kg", "evidence_row": {"indicator": "AP", "function_type": "抛物线型", "x1": 10, "x2": 20, "x3": 40, "x4": 80, "unit": "mg/kg"}}
+  ]
+}

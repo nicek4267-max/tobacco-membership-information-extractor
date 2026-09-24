@@ -1,0 +1,18 @@
+{
+  "ID": "D053",
+  "table_title": "表2 各参评指标权重及其隶属函数和函数转折点取值 / Table 2 Weight of each evaluation index, its membership function and the value of function turning point",
+  "columns": ["indicator", "function_type", "x1", "x2", "x3", "x4", "unit"],
+  "rows": [
+    {"indicator": "pH", "function_type": "A", "x1": 4.5, "x2": 5.5, "x3": 6.5, "x4": 8.0, "unit": null},
+    {"indicator": "有机质 Organic matter", "function_type": "A", "x1": 10, "x2": 15, "x3": 30, "x4": 45, "unit": "g/kg"},
+    {"indicator": "水解性氮 Alkali-hydrolyzable N", "function_type": "A", "x1": 30, "x2": 60, "x3": 120, "x4": 150, "unit": "mg/kg"},
+    {"indicator": "全氮 Total N", "function_type": "A", "x1": 0.07, "x2": 0.10, "x3": 0.15, "x4": 0.20, "unit": "%"},
+    {"indicator": "水溶性 Cl− Water-soluble Cl−", "function_type": "A", "x1": 2, "x2": 5, "x3": 25, "x4": 45, "unit": "mg/kg"},
+    {"indicator": "黏粒含量 Clay particle", "function_type": "A", "x1": 20, "x2": 40, "x3": 60, "x4": 80, "unit": "%"},
+    {"indicator": "有效磷 Available P", "function_type": "B", "x1": 10, "x2": 40, "x3": null, "x4": null, "unit": "mg/kg"},
+    {"indicator": "速效钾 Available K", "function_type": "B", "x1": 50, "x2": 150, "x3": null, "x4": null, "unit": "mg/kg"},
+    {"indicator": "全磷 Total P", "function_type": "B", "x1": 0.06, "x2": 0.10, "x3": null, "x4": null, "unit": "%"},
+    {"indicator": "全钾 Total K", "function_type": "B", "x1": 1.5, "x2": 2.5, "x3": null, "x4": null, "unit": "%"},
+    {"indicator": "CEC", "function_type": "B", "x1": 10, "x2": 20, "x3": null, "x4": null, "unit": "cmol/kg"}
+  ]
+}

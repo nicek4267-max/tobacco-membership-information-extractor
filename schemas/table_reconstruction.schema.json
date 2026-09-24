@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Table Reconstruction Schema",
+  "type": "object",
+  "additionalProperties": false,
+
+  "required": [
+    "ID",
+    "table_title",
+    "columns",
+    "rows"
+  ],
+
+  "properties": {
+    "ID": {
+      "type": ["integer", "string"]
+    },
+
+    "table_title": {
+      "type": ["string", "null"]
+    },
+
+    "columns": {
+      "type": "array",
+      "const": [
+        "indicator",
+        "function_type",
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "unit"
+      ]
+    },
+
+    "rows": {
+      "type": "array",
+
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+
+        "required": [
+          "indicator",
+          "function_type",
+          "x1",
+          "x2",
+          "x3",
+          "x4",
+          "unit"
+        ],
+
+        "properties": {
+          "indicator": {
+            "type": ["string", "null"]
+          },
+
+          "function_type": {
+            "type": ["string", "null"]
+          },
+
+          "x1": {
+            "type": ["number", "null"]
+          },
+
+          "x2": {
+            "type": ["number", "null"]
+          },
+
+          "x3": {
+            "type": ["number", "null"]
+          },
+
+          "x4": {
+            "type": ["number", "null"]
+          },
+
+          "unit": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ID": "D043",
+  "table_title": "表3 植烟土壤肥力适宜性评价隶属度函数类型 / Table 3 Types of membership function and threshold values of each fertility index",
+  "columns": ["indicator", "function_type", "x1", "x2", "x3", "x4", "unit"],
+  "rows": [
+    {"indicator": "pH", "function_type": "抛物线型", "x1": 5, "x2": 5.5, "x3": 7, "x4": 8, "unit": null},
+    {"indicator": "有机质", "function_type": "抛物线型", "x1": 10, "x2": 25, "x3": 35, "x4": 45, "unit": null},
+    {"indicator": "碱解氮", "function_type": "抛物线型", "x1": 60, "x2": 80, "x3": 120, "x4": 150, "unit": null},
+    {"indicator": "水溶性氯", "function_type": "抛物线型", "x1": 2, "x2": 10, "x3": 30, "x4": 40, "unit": null},
+    {"indicator": "有效磷", "function_type": "S型", "x1": 10, "x2": null, "x3": null, "x4": 40, "unit": null},
+    {"indicator": "有效钾", "function_type": "S型", "x1": 80, "x2": null, "x3": null, "x4": 200, "unit": null}
+  ]
+}

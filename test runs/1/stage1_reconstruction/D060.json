@@ -1,0 +1,12 @@
+{
+  "ID": "D060",
+  "table_title": "表2 土壤肥力评价指标隶属度函数阈值 / Table 2 Thresholds of membership function for soil fertility evaluation indicator",
+  "columns": ["indicator", "function_type", "x1", "x2", "x3", "x4", "unit"],
+  "rows": [
+    {"indicator": "pH", "function_type": null, "x1": 5.00, "x2": 5.50, "x3": 7.00, "x4": 7.50, "unit": null},
+    {"indicator": "SOM", "function_type": null, "x1": 15.00, "x2": 25.00, "x3": 35.00, "x4": 45.00, "unit": null},
+    {"indicator": "TN", "function_type": null, "x1": 0.90, "x2": 1.40, "x3": 2.50, "x4": 3.50, "unit": null},
+    {"indicator": "AP", "function_type": null, "x1": 10.00, "x2": 40.00, "x3": null, "x4": null, "unit": null},
+    {"indicator": "AK", "function_type": null, "x1": 50.00, "x2": 200.00, "x3": null, "x4": null, "unit": null}
+  ]
+}

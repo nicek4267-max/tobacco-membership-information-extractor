@@ -1,0 +1,16 @@
+{
+  "ID": "D049",
+  "table_title": "表3 各指标所属隶属度函数以及拐点值",
+  "columns": ["indicator", "function_type", "x1", "x2", "x3", "x4", "unit"],
+  "rows": [
+    {"indicator": "pH值", "function_type": "抛物线形", "x1": 4.5, "x2": 5.5, "x3": 6.5, "x4": 7.5, "unit": null},
+    {"indicator": "有机质", "function_type": "抛物线形", "x1": 15, "x2": 20, "x3": 30, "x4": 45, "unit": "g/kg"},
+    {"indicator": "碱解氮", "function_type": "抛物线形", "x1": 65, "x2": 100, "x3": 150, "x4": 180, "unit": "mg/kg"},
+    {"indicator": "速效磷", "function_type": "S形", "x1": 35, "x2": null, "x3": null, "x4": 70, "unit": "mg/kg"},
+    {"indicator": "速效钾", "function_type": "S形", "x1": 80, "x2": null, "x3": null, "x4": 350, "unit": "mg/kg"},
+    {"indicator": "有效硫", "function_type": "S形", "x1": 3, "x2": null, "x3": null, "x4": 15, "unit": "mg/kg"},
+    {"indicator": "有效锌", "function_type": "S形", "x1": 1, "x2": null, "x3": null, "x4": 90, "unit": "mg/kg"},
+    {"indicator": "交换性钙", "function_type": "S形", "x1": 200, "x2": null, "x3": null, "x4": 1000, "unit": "mg/kg"},
+    {"indicator": "交换性镁", "function_type": "S形", "x1": 25, "x2": null, "x3": null, "x4": 200, "unit": "mg/kg"}
+  ]
+}

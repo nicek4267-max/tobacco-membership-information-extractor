@@ -1,0 +1,12 @@
+{
+  "ID": "D035",
+  "table_title": "表1 抛物线和S型函数曲线各指标的阈值 / Table 1 Threshold values of soil indicators in parabola- and S-type membership function",
+  "columns": ["indicator", "function_type", "x1", "x2", "x3", "x4", "unit"],
+  "rows": [
+    {"indicator": "pH", "function_type": null, "x1": 5.0, "x2": 5.5, "x3": 7.0, "x4": 7.5, "unit": null},
+    {"indicator": "有机质 Organic matter", "function_type": null, "x1": 15, "x2": 25, "x3": 35, "x4": 45, "unit": null},
+    {"indicator": "全氮 Total N", "function_type": null, "x1": 0.9, "x2": 1.4, "x3": 2.5, "x4": 3.5, "unit": null},
+    {"indicator": "有效磷 Olsen-P", "function_type": null, "x1": 10, "x2": 40, "x3": null, "x4": null, "unit": null},
+    {"indicator": "速效钾 Available K", "function_type": null, "x1": 50, "x2": 200, "x3": null, "x4": null, "unit": null}
+  ]
+}

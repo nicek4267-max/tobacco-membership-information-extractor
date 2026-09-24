@@ -1,0 +1,16 @@
+{
+  "ID": "D034",
+  "table_title": "表5 土壤养分指标权重及隶属函数的阈值 / Table 5 Weight values of soil nutrient index and the threshold values of its function",
+  "columns": ["indicator", "function_type", "x1", "x2", "x3", "x4", "unit"],
+  "rows": [
+    {"indicator": "pH", "function_type": null, "x1": 5.00, "x2": 5.50, "x3": 7.00, "x4": 7.50, "unit": null},
+    {"indicator": "有机质 Organic matter", "function_type": null, "x1": 15.00, "x2": 25.00, "x3": 35.00, "x4": 45.00, "unit": null},
+    {"indicator": "碱解氮 Hydrolytic N", "function_type": null, "x1": 30.00, "x2": 60.00, "x3": 120.00, "x4": 150.00, "unit": null},
+    {"indicator": "有效镁 Available Mg", "function_type": null, "x1": 50.00, "x2": 100.00, "x3": 200.00, "x4": 400.00, "unit": null},
+    {"indicator": "水溶性氯 Water-soluble Cl", "function_type": null, "x1": 2.00, "x2": 5.00, "x3": 25.00, "x4": 40.00, "unit": null},
+    {"indicator": "速效钾 Rapidly available K", "function_type": null, "x1": 50.00, "x2": 200.00, "x3": null, "x4": null, "unit": null},
+    {"indicator": "有效硼 Available B", "function_type": null, "x1": 0.25, "x2": 2.00, "x3": null, "x4": null, "unit": null},
+    {"indicator": "有效磷 Available P", "function_type": null, "x1": 10.00, "x2": 40.00, "x3": null, "x4": null, "unit": null},
+    {"indicator": "有效锌 Available Zn", "function_type": null, "x1": 1.00, "x2": 5.00, "x3": null, "x4": null, "unit": null}
+  ]
+}

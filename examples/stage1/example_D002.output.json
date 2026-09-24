@@ -1,0 +1,66 @@
+{ "ID":2,
+  "table_title": "Table 6 The types and inflection points of membership function on evaluation factors",
+  "columns": ["indicator", "function_type", "x1", "x2", "x3", "x4", "unit", "weight"],
+  "rows": [
+    {
+      "indicator": "土壤pH",
+      "function_type": "抛物线型",
+      "x1": 5.0,
+      "x2": 5.5,
+      "x3": 7.0,
+      "x4": 8.0,
+      "unit": null,
+      "weight": 0.0422
+    },
+    {
+      "indicator": "有机质",
+      "function_type": "抛物线型",
+      "x1": 8,
+      "x2": 14,
+      "x3": 18,
+      "x4": 25,
+      "unit": "g/kg",
+      "weight": 0.2564
+    },
+    {
+      "indicator": "碱解氮",
+      "function_type": "升梯型",
+      "x1": 30,
+      "x2": 45,
+      "x3": null,
+      "x4": null,
+      "unit": "mg/kg",
+      "weight": 0.2564
+    },
+    {
+      "indicator": "速效磷",
+      "function_type": "升梯型",
+      "x1": 5,
+      "x2": 15,
+      "x3": null,
+      "x4": null,
+      "unit": "mg/kg",
+      "weight": 0.0943
+    },
+    {
+      "indicator": "水溶性氯",
+      "function_type": "抛物线型",
+      "x1": 10,
+      "x2": 10,
+      "x3": 30,
+      "x4": 45,
+      "unit": "mg/kg",
+      "weight": 0.2564
+    },
+    {
+      "indicator": "速效钾",
+      "function_type": "升梯型",
+      "x1": 80,
+      "x2": 150,
+      "x3": null,
+      "x4": null,
+      "unit": "mg/kg",
+      "weight": 0.0943
+    }
+  ]
+}

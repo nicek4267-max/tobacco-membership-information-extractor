@@ -1,0 +1,9 @@
+{
+  "table_id": "D050",
+  "records": [
+    {"indicator_raw": "pH", "indicator_std": "pH", "function_type_raw": "抛物线型", "function_type_std": "parabolic", "x1": 5, "x2": 5.5, "x3": 7, "x4": 7.5, "unit": null, "evidence_row": {"indicator": "pH", "function_type": "抛物线型", "x1": 5, "x2": 5.5, "x3": 7, "x4": 7.5, "unit": null}},
+    {"indicator_raw": "有机质", "indicator_std": "OM", "function_type_raw": "抛物线型", "function_type_std": "parabolic", "x1": 15, "x2": 25, "x3": 35, "x4": 45, "unit": "g/kg", "evidence_row": {"indicator": "有机质", "function_type": "抛物线型", "x1": 15, "x2": 25, "x3": 35, "x4": 45, "unit": "g/kg"}},
+    {"indicator_raw": "速效磷", "indicator_std": "AP", "function_type_raw": "S型", "function_type_std": "S-type", "x1": 10, "x2": null, "x3": null, "x4": 40, "unit": "mg/kg", "evidence_row": {"indicator": "速效磷", "function_type": "S型", "x1": 10, "x2": null, "x3": null, "x4": 40, "unit": "mg/kg"}},
+    {"indicator_raw": "速效钾", "indicator_std": "AK", "function_type_raw": "S型", "function_type_std": "S-type", "x1": 80, "x2": null, "x3": null, "x4": 350, "unit": "mg/kg", "evidence_row": {"indicator": "速效钾", "function_type": "S型", "x1": 80, "x2": null, "x3": null, "x4": 350, "unit": "mg/kg"}}
+  ]
+}

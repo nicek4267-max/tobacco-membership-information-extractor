@@ -1,0 +1,36 @@
+pH:
+  - pH
+  - soil pH
+  - 土壤pH
+  - pH值
+  - 酸碱度
+
+OM:
+  - OM
+  - organic matter
+  - soil organic matter
+  - 有机质
+  - SOM
+
+TN:
+  - TN
+  - total nitrogen
+  - soil total nitrogen
+  - 全氮
+
+AP:
+  - AP
+  - available phosphorus
+  - soil available phosphorus
+  - Available-P
+  - 有效磷
+  - 速效磷
+
+AK:
+  - AK
+  - available potassium
+  - soil available potassium
+  - Available -K
+  - 有效钾
+  - 速效钾
+
