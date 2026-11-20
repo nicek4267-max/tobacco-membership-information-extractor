@@ -5,7 +5,7 @@ description:
   standardized tobacco soil suitability membership-function information.
 metadata:
   author: Xinkai Yu
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Tobacco Membership Information Extractor
@@ -173,11 +173,11 @@ Preserve the input filename stem for the corresponding Stage 1 and Stage 2 outpu
 
 ---
 
-### 3. Convert and review extracted records
+### 3. Convert, check and review extracted records
 
 Convert all Stage 2 JSON files to a draft workbook:
 
-`python scripts/json_to_excel.py`
+`python scripts/josn_to_excel.py`
 
 Input:
 
@@ -187,9 +187,21 @@ Output:
 
 `outputs/extracted_records_draft.xlsx`
 
-Review each record against the Stage 2 JSON, Stage 1 JSON, and source image. Verify `table_id`, indicator, function type, thresholds, units, and any flagged items using source evidence only.
+Run quality control before manual review:
 
-After review, save the approved workbook as:
+`python "scripts/Extraction Quality Control.py"`
+
+Input:
+
+`outputs/extracted_records_draft.xlsx`
+
+Output:
+
+`outputs/manual_review_records.xlsx`
+
+Review the flagged records, correct the draft workbook using source evidence only, and verify `table_id`, indicator, function type, thresholds, and units.
+
+After all flagged items are resolved, save the corrected workbook as:
 
 `outputs/extracted_records_approved.xlsx`
 
@@ -231,7 +243,8 @@ Always follow these rules:
 3. Keep Stage 1 reconstruction separate from Stage 2 standardization.
 4. Process each input independently through Stage 1 and Stage 2.
 5. Resolve flagged records from source evidence during manual review.
-6. Use only the approved workbook for threshold statistics.
-7. Do not run JSON-to-Excel conversion or threshold statistics unless explicitly requested.
+6. Run quality control before manual review and threshold statistics.
+7. Use only the corrected, approved workbook for threshold statistics.
+8. Do not run JSON-to-Excel conversion, quality control, or threshold statistics unless explicitly requested.
 
 

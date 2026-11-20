@@ -2,8 +2,9 @@ import json
 import pandas as pd
 from pathlib import Path
 
-input_dir = Path(r"D:\codex\tobacco-membership-information-extractor\runs\4\stage2_extraction")
-output_excel = Path(r"D:\codex\tobacco-membership-information-extractor\extracted_records_draft.xlsx")
+root = Path(__file__).resolve().parents[1]
+input_dir = root / "outputs" / "stage2_extraction"
+output_excel = root / "outputs" / "extracted_records_draft.xlsx"
 
 json_files = sorted(input_dir.glob("*.json"))
 
